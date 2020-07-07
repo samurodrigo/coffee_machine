@@ -97,5 +97,4 @@ coffee_machine = CoffeeMachine()
 while coffee_machine.state != 'exit':
     action = input('Write action (buy, fill, take, remaining, exit):')
     coffee_machine.state = action
-    coffee_machine.doAction()
-    
+    coffee_machine.doAction()    
